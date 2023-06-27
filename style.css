@@ -1,59 +1,115 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 a,
-li {
-    text-decoration: none;
-    color: white;
-    list-style: none;
-}
-
 .imgLogo {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .imgFundo {
-    width: 100%;
-   
-
+  width: 100%;
+  height: 100%;
 }
 
 .header {
-    width: 100%;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.568);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    position: fixed;
-
-
-
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.568);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
 }
 
 .navMenu {
-    display: flex;
-
-
-
-
+  display: flex;
 }
 
 .navMenu li {
-       margin-left: 10px;
-    margin-right: 80px;
-
-
-
+  margin-left: 10px;
+  margin-right: 80px;
 }
 
 .navMenu li a {
-    display: block;
-    padding: 10px;
-    color: white;
+  display: block;
+  padding: 10px;
+  color: white;
+}
 
+.setPagFilmes {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  background-color: rgba(1, 9, 11, 1);
+  justify-content: space-evenly;
+}
+
+.primeiroFilme {
+  width: 800px;
+  height: 800px;
+  display: flex;
+}
+
+.filme{
+  width: 800px;
+  height: 800px;
+}
+
+.filme img{
+  width: 800px;
+  height: 800px;
+}
+
+.cardSinopse {
+  width: 800px;
+  height: 800px;
+  background-color: black;
+}
+
+.setPagPersonagens {
+  display: flex;
+  margin: 0 auto;
+  background-color: rgba(1, 9, 11, 1);
+}
+
+.cardPersonagens{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  align-content: center;
+}
+
+.primeiroPersonagem{
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+
+.primeiroPersonagem img{
+  width: 300px;
+  height: 300px;
+}
+
+
+
+.Personagem {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.Personagem img {
+  width: 300px;
+  height: 300px;
 }
